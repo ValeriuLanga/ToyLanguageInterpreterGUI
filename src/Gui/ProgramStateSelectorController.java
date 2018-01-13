@@ -9,16 +9,25 @@ import Model.Heap.Heap;
 import Model.OutputList.OutputList;
 import Model.OutputList.OutputListInterface;
 import Model.ProgramState;
+import Model.Repository.Repository;
+import Model.Repository.RepositoryInterface;
 import Model.Statements.*;
 import Model.SymbolTable.SymbolTable;
 import Model.SymbolTable.SymbolTableInterface;
 import Utils.IdGenerator;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
+import javafx.scene.layout.Pane;
+import javafx.stage.Stage;
 
 import java.net.URL;
 import java.util.ArrayList;
@@ -29,10 +38,10 @@ import java.util.stream.Collectors;
 public class ProgramStateSelectorController implements Initializable{
 
     @FXML
-    private ListView<String> ListViewProgramState;
+    private ListView<String> listViewProgramState;
 
     @FXML
-    private Button ButtonSelect;
+    private Button buttonSelect;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -50,7 +59,63 @@ public class ProgramStateSelectorController implements Initializable{
         ObservableList<String> observableProgramStatesList = FXCollections.observableList(programStatesTextRepresentation);
 
         // update the list view
-        ListViewProgramState.setItems(observableProgramStatesList);
+        listViewProgramState.setItems(observableProgramStatesList);
+
+        // make a 'final' copy of the list for the button action
+        final List<ProgramState> programStatesFinal = programStates;
+
+        buttonSelect.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+
+                // get the index of the program which we want to run
+                int index = listViewProgramState.getSelectionModel().getSelectedIndex();
+
+                // validate the selection
+                if(-1 == index){
+                    Alert alert = new Alert(Alert.AlertType.ERROR, "No program State Selected!");
+                    alert.show();
+                    return;
+                }
+
+                // get the program state
+                ProgramState selectedProgram = programStatesFinal.get(index);
+
+                try
+                {
+                    // close the selector
+                    Stage oldStage = (Stage) buttonSelect.getScene().getWindow();
+                    oldStage.close();
+
+
+                    // start the execution window
+                    FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("ProgramStateExecutor.fxml"));
+                    Pane root = fxmlLoader.load();
+
+                    Scene scene = new Scene(root, 500,500);
+
+                    Stage stage = new Stage();
+                    stage.setScene(scene);
+                    stage.setTitle("Execution Window");
+
+                    // create the log file name
+                    String logFileName = new String();
+                    logFileName = "LogFile" +  index + ".txt";
+
+                    // create the repo
+                    RepositoryInterface repository = new Repository(logFileName);
+
+                    // send the selected program state to the controller
+                    //ProgramStateExecutorController  programStateExecutorController = fxmlLoader.getController();
+
+
+                }
+                catch (Exception e){
+                    e.printStackTrace();
+                }
+            }
+        });
+
     }
 
     private List<ProgramState> InitializeProgramStates() {

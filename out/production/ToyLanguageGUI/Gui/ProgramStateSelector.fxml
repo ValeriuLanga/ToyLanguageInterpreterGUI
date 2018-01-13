@@ -20,8 +20,8 @@
                   <Font size="24.0" />
                </font>
             </Label>
-            <ListView fx:id="ListViewProgramState" prefHeight="250.0" prefWidth="600.0" />
-            <Button fx:id="ButtonSelect" mnemonicParsing="false" prefHeight="81.0" prefWidth="255.0" text="Select Program">
+            <ListView fx:id="listViewProgramState" prefHeight="250.0" prefWidth="600.0" />
+            <Button fx:id="buttonSelect" mnemonicParsing="false" prefHeight="81.0" prefWidth="255.0" text="Select Program">
                <font>
                   <Font size="18.0" />
                </font>
