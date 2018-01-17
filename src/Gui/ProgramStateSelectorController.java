@@ -89,7 +89,7 @@ public class ProgramStateSelectorController implements Initializable{
 
 
                     // start the execution window
-                    FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("ProgramStateExecutor.fxml"));
+                    FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("ProgramStateExecutor_broken.fxml"));
                     Pane root = fxmlLoader.load();
 
                     Scene scene = new Scene(root, 500,500);
