@@ -6,4 +6,5 @@ public interface OutputListInterface<T> {
     public void     removeElement(T element);
     public int      getSize();
     public boolean  isEmpty();
+    public Iterable<T> getAsIterable();
 }

@@ -34,6 +34,10 @@ public class ProgramState {
         this.programId = programId;
     }
 
+    public int getProgramId() {
+        return programId;
+    }
+
     public ExecutionStackInterface<Statement> getExecutionStack() {
        return executionStack;
     }

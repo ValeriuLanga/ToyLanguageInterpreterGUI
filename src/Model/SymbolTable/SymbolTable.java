@@ -53,6 +53,11 @@ public class SymbolTable<K,V> implements SymbolTableInterface<K,V>
     }
 
     @Override
+    public Iterable<HashMap.Entry<K, V>> getAsIterableMap() {
+        return container.entrySet();
+    }
+
+    @Override
     public SymbolTableInterface<K,V> clone(){
         SymbolTableInterface<K,V> symbolTableInterfaceClone = new SymbolTable<>();
 

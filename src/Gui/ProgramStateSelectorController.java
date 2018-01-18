@@ -89,25 +89,32 @@ public class ProgramStateSelectorController implements Initializable{
 
 
                     // start the execution window
-                    FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("ProgramStateExecutor_broken.fxml"));
-                    Pane root = fxmlLoader.load();
+                    FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("ProgramStateExecutor.fxml"));
+                    Pane newPane = fxmlLoader.load();
 
-                    Scene scene = new Scene(root, 500,500);
+                    Scene scene = new Scene(newPane);
 
-                    Stage stage = new Stage();
-                    stage.setScene(scene);
-                    stage.setTitle("Execution Window");
+                    Stage newStage = new Stage();
+                    newStage.setScene(scene);
+                    newStage.setTitle("Execution Window");
 
                     // create the log file name
                     String logFileName = new String();
                     logFileName = "LogFile" +  index + ".txt";
 
-                    // create the repo
-                    RepositoryInterface repository = new Repository(logFileName);
 
                     // send the selected program state to the controller
-                    //ProgramStateExecutorController  programStateExecutorController = fxmlLoader.getController();
+                    ProgramStateExecutorController  programStateExecutorController = fxmlLoader.getController();
 
+                    // create the repo
+                    RepositoryInterface newRepository =  new Repository(logFileName);
+                    newRepository.addProgramState(selectedProgram);
+
+                    // initialize the program for this controller
+                    programStateExecutorController.initializeProgram(selectedProgram, newRepository);
+
+                    // show the new stage
+                    newStage.show();
 
                 }
                 catch (Exception e){

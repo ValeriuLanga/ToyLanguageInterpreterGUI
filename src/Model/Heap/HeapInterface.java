@@ -9,5 +9,6 @@ public interface HeapInterface<K,V> {
     public V get(K key);
     public boolean contains(K key);
     public Map<K,V> getUnderlyingMap();
+    public Iterable<Map.Entry<K, V>> getAsIterable();
     public void setUnderlyingMap(HashMap<K, V> map);
 }

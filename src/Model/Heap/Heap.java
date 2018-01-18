@@ -44,6 +44,11 @@ public class Heap<K,V> implements HeapInterface<K,V>{
     }
 
     @Override
+    public Iterable<Map.Entry<K, V>> getAsIterable() {
+        return heapContainer.entrySet();
+    }
+
+    @Override
     public void setUnderlyingMap(HashMap<K, V> map) {
         heapContainer = map;
     }

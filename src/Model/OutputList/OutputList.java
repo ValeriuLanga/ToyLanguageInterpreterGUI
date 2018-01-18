@@ -52,7 +52,12 @@ public class OutputList<T> implements OutputListInterface<T> {
         return outputList.isEmpty();
     }
 
-   public List<T> getOutputList(){
+    @Override
+    public Iterable<T> getAsIterable() {
+        return outputList;
+    }
+
+    public List<T> getOutputList(){
        LinkedList<T> newList = new LinkedList<T>(outputList);
        return newList;
     }

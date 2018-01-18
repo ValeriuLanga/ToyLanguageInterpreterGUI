@@ -1,0 +1,206 @@
+
+Id: 3
+ExecutionStack: 
+((((open ( fileId: f fileName: example.txt);read (f,c););Print(c););IF(c) THEN((read (f,c);;Print(c);))ELSE(Print(0);));close ( fileId: f))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 3
+ExecutionStack: 
+(((open ( fileId: f fileName: example.txt);read (f,c););Print(c););IF(c) THEN((read (f,c);;Print(c);))ELSE(Print(0);))
+close ( fileId: f)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 3
+ExecutionStack: 
+(((open ( fileId: f fileName: example.txt);read (f,c););Print(c););IF(c) THEN((read (f,c);;Print(c);))ELSE(Print(0);))
+close ( fileId: f)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 3
+ExecutionStack: 
+((open ( fileId: f fileName: example.txt);read (f,c););Print(c);)
+IF(c) THEN((read (f,c);;Print(c);))ELSE(Print(0);)
+close ( fileId: f)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 3
+ExecutionStack: 
+((open ( fileId: f fileName: example.txt);read (f,c););Print(c);)
+IF(c) THEN((read (f,c);;Print(c);))ELSE(Print(0);)
+close ( fileId: f)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 3
+ExecutionStack: 
+(open ( fileId: f fileName: example.txt);read (f,c);)
+Print(c);
+IF(c) THEN((read (f,c);;Print(c);))ELSE(Print(0);)
+close ( fileId: f)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 3
+ExecutionStack: 
+(open ( fileId: f fileName: example.txt);read (f,c);)
+Print(c);
+IF(c) THEN((read (f,c);;Print(c);))ELSE(Print(0);)
+close ( fileId: f)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 3
+ExecutionStack: 
+open ( fileId: f fileName: example.txt)
+read (f,c);
+Print(c);
+IF(c) THEN((read (f,c);;Print(c);))ELSE(Print(0);)
+close ( fileId: f)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 3
+ExecutionStack: 
+open ( fileId: f fileName: example.txt)
+read (f,c);
+Print(c);
+IF(c) THEN((read (f,c);;Print(c);))ELSE(Print(0);)
+close ( fileId: f)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 3
+ExecutionStack: 
+read (f,c);
+Print(c);
+IF(c) THEN((read (f,c);;Print(c);))ELSE(Print(0);)
+close ( fileId: f)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 3
+ExecutionStack: 
+((((open ( fileId: f fileName: example.txt);read (f,c););Print(c););IF(c) THEN((read (f,c);;Print(c);))ELSE(Print(0);));close ( fileId: f))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 3
+ExecutionStack: 
+(((open ( fileId: f fileName: example.txt);read (f,c););Print(c););IF(c) THEN((read (f,c);;Print(c);))ELSE(Print(0);))
+close ( fileId: f)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 3
+ExecutionStack: 
+(((open ( fileId: f fileName: example.txt);read (f,c););Print(c););IF(c) THEN((read (f,c);;Print(c);))ELSE(Print(0);))
+close ( fileId: f)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 3
+ExecutionStack: 
+((open ( fileId: f fileName: example.txt);read (f,c););Print(c);)
+IF(c) THEN((read (f,c);;Print(c);))ELSE(Print(0);)
+close ( fileId: f)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 3
+ExecutionStack: 
+((open ( fileId: f fileName: example.txt);read (f,c););Print(c);)
+IF(c) THEN((read (f,c);;Print(c);))ELSE(Print(0);)
+close ( fileId: f)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 3
+ExecutionStack: 
+(open ( fileId: f fileName: example.txt);read (f,c);)
+Print(c);
+IF(c) THEN((read (f,c);;Print(c);))ELSE(Print(0);)
+close ( fileId: f)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 3
+ExecutionStack: 
+(open ( fileId: f fileName: example.txt);read (f,c);)
+Print(c);
+IF(c) THEN((read (f,c);;Print(c);))ELSE(Print(0);)
+close ( fileId: f)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 3
+ExecutionStack: 
+open ( fileId: f fileName: example.txt)
+read (f,c);
+Print(c);
+IF(c) THEN((read (f,c);;Print(c);))ELSE(Print(0);)
+close ( fileId: f)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 3
+ExecutionStack: 
+open ( fileId: f fileName: example.txt)
+read (f,c);
+Print(c);
+IF(c) THEN((read (f,c);;Print(c);))ELSE(Print(0);)
+close ( fileId: f)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 3
+ExecutionStack: 
+read (f,c);
+Print(c);
+IF(c) THEN((read (f,c);;Print(c);))ELSE(Print(0);)
+close ( fileId: f)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 

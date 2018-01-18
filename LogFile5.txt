@@ -1,0 +1,1130 @@
+
+Id: 7
+ExecutionStack: 
+((v=10;new ( address: a value: 22));fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) ))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+(v=10;new ( address: a value: 22))
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+(v=10;new ( address: a value: 22))
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+v=10
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+v=10
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	v->10
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	v->10
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 80
+ExecutionStack: 
+(( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));))
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 80
+ExecutionStack: 
+(( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));))
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 80
+ExecutionStack: 
+( WriteHeap( address of: a value: 30;;v=32)
+(Print(v);;Print(ReadHeap (a));)
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+((v=10;new ( address: a value: 22));fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) ))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+(v=10;new ( address: a value: 22))
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+(v=10;new ( address: a value: 22))
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+v=10
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+v=10
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	v->10
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	v->10
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 80
+ExecutionStack: 
+(( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));))
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+((v=10;new ( address: a value: 22));fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) ))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+(v=10;new ( address: a value: 22))
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+(v=10;new ( address: a value: 22))
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+v=10
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+v=10
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	v->10
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	v->10
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 80
+ExecutionStack: 
+(( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));))
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+((v=10;new ( address: a value: 22));fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) ))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+(v=10;new ( address: a value: 22))
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+(v=10;new ( address: a value: 22))
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+v=10
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+v=10
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	v->10
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	v->10
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 80
+ExecutionStack: 
+(( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));))
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 80
+ExecutionStack: 
+(( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));))
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 80
+ExecutionStack: 
+( WriteHeap( address of: a value: 30;;v=32)
+(Print(v);;Print(ReadHeap (a));)
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+((v=10;new ( address: a value: 22));fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) ))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+(v=10;new ( address: a value: 22))
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+(v=10;new ( address: a value: 22))
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+v=10
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+v=10
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	v->10
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	v->10
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 80
+ExecutionStack: 
+(( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));))
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 80
+ExecutionStack: 
+(( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));))
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 80
+ExecutionStack: 
+( WriteHeap( address of: a value: 30;;v=32)
+(Print(v);;Print(ReadHeap (a));)
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+((v=10;new ( address: a value: 22));fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) ))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+(v=10;new ( address: a value: 22))
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+(v=10;new ( address: a value: 22))
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+v=10
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+v=10
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	v->10
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	v->10
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 80
+ExecutionStack: 
+(( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));))
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 80
+ExecutionStack: 
+(( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));))
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 80
+ExecutionStack: 
+( WriteHeap( address of: a value: 30;;v=32)
+(Print(v);;Print(ReadHeap (a));)
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+((v=10;new ( address: a value: 22));fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) ))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+(v=10;new ( address: a value: 22))
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+(v=10;new ( address: a value: 22))
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+v=10
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+v=10
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	v->10
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	v->10
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 80
+ExecutionStack: 
+(( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));))
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 80
+ExecutionStack: 
+(( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));))
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 80
+ExecutionStack: 
+( WriteHeap( address of: a value: 30;;v=32)
+(Print(v);;Print(ReadHeap (a));)
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+((v=10;new ( address: a value: 22));fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) ))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+(v=10;new ( address: a value: 22))
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+(v=10;new ( address: a value: 22))
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+v=10
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+v=10
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	v->10
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+new ( address: a value: 22)
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	v->10
+Output: 
+FileTable: 
+Heap: 
+
+Id: 7
+ExecutionStack: 
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+fork( (( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));)) )
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 80
+ExecutionStack: 
+(( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));))
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 80
+ExecutionStack: 
+(( WriteHeap( address of: a value: 30;;v=32);(Print(v);;Print(ReadHeap (a));))
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 7
+ExecutionStack: 
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22
+
+Id: 80
+ExecutionStack: 
+( WriteHeap( address of: a value: 30;;v=32)
+(Print(v);;Print(ReadHeap (a));)
+SymbolTable: 
+	a->1
+	v->10
+Output: 
+FileTable: 
+Heap: 
+	1->22

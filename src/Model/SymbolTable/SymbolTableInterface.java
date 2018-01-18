@@ -11,5 +11,6 @@ public interface SymbolTableInterface<K,V>
     public void put(K key, V Value);
     public void replace(K key, V value);
     public HashMap<K,V> getUnderlyingMap();
+    public Iterable<HashMap.Entry<K,V>> getAsIterableMap();
     public SymbolTableInterface clone();
 }

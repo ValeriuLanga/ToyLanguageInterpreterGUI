@@ -39,6 +39,11 @@ public class FileTable<K,V> implements FileTableInterface<K,V> {
     }
 
     @Override
+    public Iterable<Map.Entry<K, V>> getAsIterable() {
+        return fileDescriptorTable.entrySet();
+    }
+
+    @Override
     public boolean contains(V value) {
         return fileDescriptorTable.containsValue(value);
     }

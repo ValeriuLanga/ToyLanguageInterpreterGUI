@@ -12,7 +12,7 @@ public interface RepositoryInterface {
 
     public void logProgramState(ProgramState programState)throws IOException;
     public void setFileName(String fileName);
-
+    public ProgramState getByProgramId(int id);
     public List<ProgramState> getProgramsList();
     public void setProgramsList(List<ProgramState> programsList);
 }

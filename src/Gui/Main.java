@@ -14,7 +14,7 @@ public class Main extends Application {
         try{
         Parent root = FXMLLoader.load(getClass().getResource("ProgramStateSelector.fxml"));
         primaryStage.setTitle("Program State Selector");
-        primaryStage.setScene(new Scene(root, 500, 500));
+        primaryStage.setScene(new Scene(root));
         primaryStage.show();
         }
         catch( Exception e)

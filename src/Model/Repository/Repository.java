@@ -52,4 +52,15 @@ public class Repository implements RepositoryInterface {
     public void setFileName( String fileName ){
         this.LogFilePath = fileName;
     }
+
+    @Override
+    public ProgramState getByProgramId(int id) {
+        for(ProgramState state : programList)
+        {
+            if (state.getProgramId() == id)
+                return state;
+        }
+
+        return null;
+    }
 }

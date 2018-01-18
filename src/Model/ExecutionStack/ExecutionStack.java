@@ -1,6 +1,7 @@
 package Model.ExecutionStack;
 
 import java.util.LinkedList;
+import java.util.List;
 
 public class ExecutionStack<T> implements ExecutionStackInterface<T> {
     private LinkedList<T> stack;
@@ -26,6 +27,16 @@ public class ExecutionStack<T> implements ExecutionStackInterface<T> {
     public T peek()
     {
         return stack.peek();
+    }
+
+    @Override
+    public List<T> getUnderlayingList() {
+        return stack;
+    }
+
+    @Override
+    public Iterable<T> getAsIterable() {
+        return stack;
     }
 
     @Override

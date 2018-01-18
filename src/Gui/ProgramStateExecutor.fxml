@@ -28,7 +28,15 @@
                         <TextField alignment="CENTER" prefHeight="23.0" prefWidth="200.0" text="Heap" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                      </children>
                   </AnchorPane>
-                <AnchorPane fx:id="heapTableView" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                     <children>
+                        <TableView fx:id="heapTableView" prefHeight="155.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <columns>
+                            <TableColumn prefWidth="99.0" text="C1" />
+                            <TableColumn prefWidth="100.0" text="C2" />
+                          </columns>
+                        </TableView>
+                     </children></AnchorPane>
               </items>
             </SplitPane>
             <SplitPane dividerPositions="0.13636363636363635" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" GridPane.columnIndex="1">
@@ -38,7 +46,15 @@
                         <TextField alignment="CENTER" layoutX="14.0" prefHeight="23.0" prefWidth="196.0" text="Symbol Table" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                      </children>
                   </AnchorPane>
-                  <AnchorPane fx:id="symbolTableTableView" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                     <children>
+                        <TableView fx:id="symbolTableTableView" layoutX="-26.0" layoutY="14.0" prefHeight="155.0" prefWidth="196.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <columns>
+                            <TableColumn prefWidth="105.0" text="C1" />
+                            <TableColumn prefWidth="90.0" text="C2" />
+                          </columns>
+                        </TableView>
+                     </children></AnchorPane>
                </items>
             </SplitPane>
             <SplitPane dividerPositions="0.13636363636363635" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
@@ -62,7 +78,10 @@
                         <TextField alignment="CENTER" layoutX="-2.0" layoutY="-4.0" prefHeight="19.0" prefWidth="196.0" text="Execution Stack" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                      </children>
                   </AnchorPane>
-                  <AnchorPane fx:id="executionStackListView" minHeight="0.0" minWidth="0.0" prefHeight="135.0" prefWidth="180.0" />
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="135.0" prefWidth="180.0">
+                     <children>
+                        <ListView fx:id="executionStackListView" layoutX="-2.0" layoutY="-21.0" prefHeight="157.0" prefWidth="196.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children></AnchorPane>
                </items>
             </SplitPane>
             <SplitPane dividerPositions="0.13636363636363635" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
@@ -72,7 +91,15 @@
                         <TextField alignment="CENTER" layoutX="-3.0" layoutY="-6.0" prefHeight="19.0" prefWidth="200.0" text="File Table" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                      </children>
                   </AnchorPane>
-                  <AnchorPane fx:id="fileTableTableView" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                     <children>
+                        <TableView fx:id="fileTableTableView" layoutY="8.0" prefHeight="157.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <columns>
+                            <TableColumn prefWidth="103.0" text="C1" />
+                            <TableColumn prefWidth="96.0" text="C2" />
+                          </columns>
+                        </TableView>
+                     </children></AnchorPane>
                </items>
             </SplitPane>
             <SplitPane dividerPositions="0.13636363636363635" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" GridPane.rowIndex="1">

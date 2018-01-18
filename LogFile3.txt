@@ -1,0 +1,15 @@
+
+Id: 5
+ExecutionStack: 
+Print((2>1));
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+
+Id: 5
+ExecutionStack: 
+SymbolTable: 
+Output: 1 
+FileTable: 
+Heap: 
