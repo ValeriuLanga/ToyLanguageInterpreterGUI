@@ -16,6 +16,7 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
+import sun.dc.pr.PRError;
 
 import java.io.IOException;
 import java.net.URL;
@@ -150,21 +151,31 @@ public class ProgramStateExecutorController implements Initializable {
                 // actually run one step :)
                 oneStepGUI();
 
-                if (repository.getProgramsList().get(0).isCompleted() && repository.getProgramsList().size() == 1) {
+                if (repository.getProgramsList().size() == 1 && repository.getProgramsList().get(0).isCompleted()) {
                     runOneStepButton.disableProperty();
                     runOneStepButton.setVisible(false);
+                    Alert alert = new Alert(Alert.AlertType.ERROR, "No more programs to run!");
+                    alert.show();
                     //spIdNext.setDividerPositions(1);
                     //spId.setDividerPositions(0.13);
                 }
 
-                ProgramState currentProgramState = selectedProgramState;
-                /*
+                ProgramState currentProgramState;// = selectedProgramState;
+
                 try {
                     currentProgramState = repository.getByProgramId(programStatesIdsListView.getSelectionModel().getSelectedItem());
+                    if(currentProgramState == null){
+                        //refresh the list since we have an empty program state
+                        programIdsRepresentation = repository.getProgramsList().stream().map(e -> e.getProgramId()).collect(Collectors.toList());
+                        ObservableList<Integer> programIdsObservableList = FXCollections.observableArrayList(programIdsRepresentation);
+                        programStatesIdsListView.setItems(programIdsObservableList);
+
+                        currentProgramState = repository.getProgramsList().get(0);
+                    }
                 } catch (Exception ex) {
-                    //currentProgramState = repo.setCurrent(0).getCurrent();
+                    currentProgramState = repository.getProgramsList().get(0);
                 }
-                */
+
                 // program ids
                 programIdsRepresentation = repo.getProgramsList().stream().map(e -> e.getProgramId()).collect(Collectors.toList());
                 if (!programIdsRepresentation.equals(programIdsObservableList)) {
@@ -208,7 +219,6 @@ public class ProgramStateExecutorController implements Initializable {
                 outputListRepresentation.forEach(e -> outputList.add(e));
                 outputListObservable.setAll(outputList);
                 outputListView.setItems(outputListObservable);
-                ;
             }
         });
 
@@ -293,23 +303,27 @@ public class ProgramStateExecutorController implements Initializable {
     public void oneStepGUI()
     {
         executorService = Executors.newFixedThreadPool(2);
-        List<ProgramState> prgList = repository.getProgramsList();
 
-        if(prgList.isEmpty())
-        {
-            return;
-        }
+        repository.setProgramsList(removeCompletedPrograms(repository.getProgramsList()));
+
+        List<ProgramState> prgList = repository.getProgramsList();
+        // check if we still have something to run
 
         try {
             oneStepAllPrg(prgList);
         }
         catch (InterruptedException interruptedExc){
-            Alert alert = new Alert(Alert.AlertType.ERROR, interruptedExc.toString());
+            //Alert alert = new Alert(Alert.AlertType.ERROR, interruptedExc.toString());
+            Alert alert = new Alert(Alert.AlertType.ERROR, "The program had ended!");
             alert.show();
         }
 
-        //repo.setAll(removeCompletedPrg(repo.getAll()));
+
         executorService.shutdown();
+    }
+
+    public List<ProgramState> removeCompletedPrograms(List<ProgramState> programStateList){
+        return programStateList.stream().filter(x -> !x.isCompleted()).collect(Collectors.toList());
     }
 }
 
