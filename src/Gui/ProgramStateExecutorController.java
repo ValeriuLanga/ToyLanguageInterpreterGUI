@@ -16,13 +16,11 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
-import sun.dc.pr.PRError;
 
 import java.io.IOException;
 import java.net.URL;
 import java.util.*;
 import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
@@ -50,17 +48,8 @@ public class ProgramStateExecutorController implements Initializable {
     private RepositoryInterface repository;
     private ExecutorService executorService;
 
-    Iterable<Map.Entry<Integer, Integer>> heapRepresentation;
-    Iterable<Map.Entry<Integer, FileDescriptor>> fileTableRepresentation;
-    Iterable<Map.Entry<String, Integer>> symbolTableRepresentation;
-    Iterable<Integer> outputListRepresentation;
-    Iterable<Statement> executionStackRepresentation;
-    List<String> executionStackStringRepresentation;
-    List<Integer> programIdsRepresentation;
-
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
     }
 
     // this method is called by the controller of the ProgramStateSelector
@@ -69,81 +58,25 @@ public class ProgramStateExecutorController implements Initializable {
         repository = repo;
 
         // set the program ids
-        programIdsRepresentation = repository.getProgramsList().stream().map(e -> e.getProgramId()).collect(Collectors.toList());
-        ObservableList<Integer> programIdsObservableList = FXCollections.observableArrayList(programIdsRepresentation);
-        programStatesIdsListView.setItems(programIdsObservableList);
+        setProgramIdsListView(repository);
 
         // set the number of program states :)
 
         // execution stack operation
-        executionStackRepresentation = selectedProgramState.getExecutionStack().getUnderlayingList();
-        List<Statement> executionList = new ArrayList<>();
-        executionStackRepresentation.forEach(e -> executionList.add(e));
-        executionStackStringRepresentation = executionList.stream().map(e -> e.toString()).collect(Collectors.toList());
-
-        ObservableList<String> executionStackObservableList = FXCollections.observableArrayList(executionStackStringRepresentation);
-        executionStackListView.setItems(executionStackObservableList);
+        setExecutionStackListView(selectedProgramState);
 
         // symbol table operation
-        symbolTableRepresentation = selectedProgramState.getSymbolTable().getAsIterableMap();
-        List<Map.Entry<String, Integer>> symbolTableList = new ArrayList<>();
-
-        symbolTableRepresentation.forEach(e -> symbolTableList.add(e));
-        ObservableList<Map.Entry<String, Integer>> symbolTableObservableList = FXCollections.observableArrayList(symbolTableList);
-
-        TableColumn<Map.Entry<String, Integer>, String> variableNameColumn = new TableColumn<>("Variable Name");
-        variableNameColumn.setCellValueFactory(p -> (ObservableValue<String>) new SimpleStringProperty(p.getValue().getKey()));
-
-        TableColumn<Map.Entry<String, Integer>, Integer> valueColumn = new TableColumn<>("Value");
-        valueColumn.setCellValueFactory(p -> (ObservableValue<Integer>) new SimpleIntegerProperty(p.getValue().getValue()).asObject());
-
-        symbolTableTableView.getColumns().clear();
-        symbolTableTableView.getColumns().addAll(variableNameColumn, valueColumn);
-        symbolTableTableView.setItems(symbolTableObservableList);
+        setSymbolTableTableView(selectedProgramState);
 
         // file table operations
-        fileTableRepresentation = selectedProgramState.getFileTable().getAsIterable();
-
-        List<Map.Entry<Integer, FileDescriptor>> fileList = new ArrayList<>();
-        fileTableRepresentation.forEach(e -> fileList.add(e));
-
-        ObservableList<Map.Entry<Integer, FileDescriptor>> fileTableObservable = FXCollections.observableArrayList(fileList);
-
-        TableColumn<Map.Entry<Integer, FileDescriptor>, Integer> fileDescriptorColumn = new TableColumn<>("File Descriptor");
-        fileDescriptorColumn.setCellValueFactory(p -> (ObservableValue<Integer>) new SimpleIntegerProperty(p.getValue().getKey()).asObject());
-        TableColumn<Map.Entry<Integer, FileDescriptor>, String> fileColumn = new TableColumn<>("File Name");
-        fileColumn.setCellValueFactory(p -> (ObservableValue<String>) new SimpleStringProperty(p.getValue().getValue().toString()));
-
-        fileTableTableView.getColumns().clear();
-        fileTableTableView.getColumns().addAll(fileDescriptorColumn, fileColumn);
-        fileTableTableView.setItems(fileTableObservable);
-
+        setFileTableTableView(selectedProgramState);
 
         // heap operations
-        heapRepresentation = selectedProgramState.getHeap().getAsIterable();
-
-        List<Map.Entry<Integer, Integer>> heapList = new ArrayList<>();
-        heapList.forEach(e -> heapList.add(e));
-
-        ObservableList<Map.Entry<Integer, Integer>> heapObservable = FXCollections.observableArrayList(heapList);
-
-        TableColumn<Map.Entry<Integer, Integer>, Integer> addressColumn = new TableColumn<>("Address");
-        addressColumn.setCellValueFactory(p -> (ObservableValue<Integer>) new SimpleIntegerProperty(p.getValue().getKey()).asObject());
-        TableColumn<Map.Entry<Integer, Integer>, Integer> addressValueColumn = new TableColumn<>("Value");
-        addressValueColumn.setCellValueFactory(p -> (ObservableValue<Integer>) new SimpleIntegerProperty(p.getValue().getValue()).asObject());
-
-        heapTableView.getColumns().clear();
-        heapTableView.getColumns().addAll(addressColumn, addressValueColumn);
-        heapTableView.setItems(heapObservable);
+        setHeapTableView(selectedProgramState);
 
         // output list operations
-        outputListRepresentation = selectedProgramState.getOutputList().getAsIterable();
+        setOutputListView(selectedProgramState);
 
-        List<Integer> outputList = new ArrayList<>();
-        outputListRepresentation.forEach(e -> outputList.add(e));
-
-        ObservableList<Integer> outputListObservable = FXCollections.observableArrayList(outputList);
-        outputListView.setItems(outputListObservable);
 
         runOneStepButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -156,19 +89,15 @@ public class ProgramStateExecutorController implements Initializable {
                     runOneStepButton.setVisible(false);
                     Alert alert = new Alert(Alert.AlertType.ERROR, "No more programs to run!");
                     alert.show();
-                    //spIdNext.setDividerPositions(1);
-                    //spId.setDividerPositions(0.13);
                 }
 
-                ProgramState currentProgramState;// = selectedProgramState;
+                ProgramState currentProgramState;
 
                 try {
                     currentProgramState = repository.getByProgramId(programStatesIdsListView.getSelectionModel().getSelectedItem());
                     if(currentProgramState == null){
                         //refresh the list since we have an empty program state
-                        programIdsRepresentation = repository.getProgramsList().stream().map(e -> e.getProgramId()).collect(Collectors.toList());
-                        ObservableList<Integer> programIdsObservableList = FXCollections.observableArrayList(programIdsRepresentation);
-                        programStatesIdsListView.setItems(programIdsObservableList);
+                        setProgramIdsListView(repository);
 
                         currentProgramState = repository.getProgramsList().get(0);
                     }
@@ -177,48 +106,22 @@ public class ProgramStateExecutorController implements Initializable {
                 }
 
                 // program ids
-                programIdsRepresentation = repo.getProgramsList().stream().map(e -> e.getProgramId()).collect(Collectors.toList());
-                if (!programIdsRepresentation.equals(programIdsObservableList)) {
-                    programIdsObservableList.setAll(programIdsRepresentation);
-                    programStatesIdsListView.setItems(programIdsObservableList);
-                }
+                setProgramIdsListView(repository);
 
                 // EXECUTION STACK
-                executionStackRepresentation = currentProgramState.getExecutionStack().getUnderlayingList();
-                executionList.clear();
-                executionStackRepresentation.forEach(e -> executionList.add(e));
-                executionStackStringRepresentation = executionList.parallelStream().map(e -> e.toString()).collect(Collectors.toList());
-                executionStackObservableList.setAll(executionStackStringRepresentation);
-                executionStackListView.setItems(executionStackObservableList);
+                setExecutionStackListView(currentProgramState);
 
                 // SYMBOL TABLE
-                symbolTableRepresentation = currentProgramState.getSymbolTable().getAsIterableMap();
-                symbolTableList.clear();
-                symbolTableRepresentation.forEach(e -> symbolTableList.add(e));
-                symbolTableObservableList.setAll(symbolTableList);
-                symbolTableTableView.setItems(symbolTableObservableList);
+                setSymbolTableTableView(currentProgramState);
 
                 // FILE TABLE
-                fileTableRepresentation = currentProgramState.getFileTable().getAsIterable();
-
-                fileList.clear();
-                fileTableRepresentation.forEach(e -> fileList.add(e));
-                fileTableObservable.setAll(fileList);
-                fileTableTableView.setItems(fileTableObservable);
+                setFileTableTableView(currentProgramState);
 
                 // HEAP
-                heapRepresentation = currentProgramState.getHeap().getAsIterable();
-                heapList.clear();
-                heapRepresentation.forEach(e -> heapList.add(e));
-                heapObservable.setAll(heapList);
-                heapTableView.setItems(heapObservable);
+                setHeapTableView(currentProgramState);
 
                 // OUTPUT
-                outputListRepresentation = currentProgramState.getOutputList().getAsIterable();
-                outputList.clear();
-                outputListRepresentation.forEach(e -> outputList.add(e));
-                outputListObservable.setAll(outputList);
-                outputListView.setItems(outputListObservable);
+                setOutputListView(currentProgramState);
             }
         });
 
@@ -232,24 +135,14 @@ public class ProgramStateExecutorController implements Initializable {
 
 
                         // EXECUTION STACK
-                        executionStackRepresentation = newProgramState.getExecutionStack().getAsIterable();
-                        executionList.clear();
-                        executionStackRepresentation.forEach(e -> executionList.add(e));
-                        executionStackStringRepresentation = executionList.stream().map(e -> e.toString()).collect(Collectors.toList());
-                        executionStackObservableList.setAll(executionStackStringRepresentation);
-                        executionStackListView.setItems(executionStackObservableList);
+                       setExecutionStackListView(newProgramState);
 
                         // SYMBOL TABLE
-                        symbolTableRepresentation = newProgramState.getSymbolTable().getAsIterableMap();
-                        symbolTableList.clear();
-                        symbolTableRepresentation.forEach(e -> symbolTableList.add(e));
-                        symbolTableObservableList.setAll(symbolTableList);
-                        symbolTableTableView.setItems(symbolTableObservableList);
-
+                        setSymbolTableTableView(newProgramState);
                     }
-                    ;
                 });
     }
+
     public void oneStepAllPrg(List<ProgramState> programStates) throws InterruptedException {
         programStates.forEach(program -> {
             try {
@@ -324,6 +217,89 @@ public class ProgramStateExecutorController implements Initializable {
 
     public List<ProgramState> removeCompletedPrograms(List<ProgramState> programStateList){
         return programStateList.stream().filter(x -> !x.isCompleted()).collect(Collectors.toList());
+    }
+
+    private void setProgramIdsListView(RepositoryInterface repository){
+        List<Integer> programIdsRepresentation = repository.getProgramsList().stream().map(e -> e.getProgramId()).collect(Collectors.toList());
+        ObservableList<Integer> programIdsObservableList = FXCollections.observableArrayList(programIdsRepresentation);
+        programStatesIdsListView.setItems(programIdsObservableList);
+    }
+
+    private void setExecutionStackListView(ProgramState programState){
+        Iterable<Statement> executionStackRepresentation = programState.getExecutionStack().getUnderlayingList();
+        List<Statement> executionList = new ArrayList<>();
+        List<String> executionStackStringRepresentation;
+
+        executionStackRepresentation.forEach(e -> executionList.add(e));
+        executionStackStringRepresentation = executionList.stream().map(e -> e.toString()).collect(Collectors.toList());
+
+        ObservableList<String> executionStackObservableList = FXCollections.observableArrayList(executionStackStringRepresentation);
+        executionStackListView.setItems(executionStackObservableList);
+    }
+
+    private void setSymbolTableTableView(ProgramState programState){
+
+        Iterable<Map.Entry<String, Integer>> symbolTableRepresentation = programState.getSymbolTable().getAsIterableMap();
+        List<Map.Entry<String, Integer>> symbolTableList = new ArrayList<>();
+
+        symbolTableRepresentation.forEach(e -> symbolTableList.add(e));
+        ObservableList<Map.Entry<String, Integer>> symbolTableObservableList = FXCollections.observableArrayList(symbolTableList);
+
+        TableColumn<Map.Entry<String, Integer>, String> variableNameColumn = new TableColumn<>("Variable Name");
+        variableNameColumn.setCellValueFactory(p -> (ObservableValue<String>) new SimpleStringProperty(p.getValue().getKey()));
+
+        TableColumn<Map.Entry<String, Integer>, Integer> valueColumn = new TableColumn<>("Value");
+        valueColumn.setCellValueFactory(p -> (ObservableValue<Integer>) new SimpleIntegerProperty(p.getValue().getValue()).asObject());
+
+        symbolTableTableView.getColumns().clear();
+        symbolTableTableView.getColumns().addAll(variableNameColumn, valueColumn);
+        symbolTableTableView.setItems(symbolTableObservableList);
+    }
+
+    private void setFileTableTableView(ProgramState programState){
+        Iterable<Map.Entry<Integer, FileDescriptor>> fileTableRepresentation = programState.getFileTable().getAsIterable();
+
+        List<Map.Entry<Integer, FileDescriptor>> fileList = new ArrayList<>();
+        fileTableRepresentation.forEach(e -> fileList.add(e));
+
+        ObservableList<Map.Entry<Integer, FileDescriptor>> fileTableObservable = FXCollections.observableArrayList(fileList);
+
+        TableColumn<Map.Entry<Integer, FileDescriptor>, Integer> fileDescriptorColumn = new TableColumn<>("File Descriptor");
+        fileDescriptorColumn.setCellValueFactory(p -> (ObservableValue<Integer>) new SimpleIntegerProperty(p.getValue().getKey()).asObject());
+        TableColumn<Map.Entry<Integer, FileDescriptor>, String> fileColumn = new TableColumn<>("File Name");
+        fileColumn.setCellValueFactory(p -> (ObservableValue<String>) new SimpleStringProperty(p.getValue().getValue().toString()));
+
+        fileTableTableView.getColumns().clear();
+        fileTableTableView.getColumns().addAll(fileDescriptorColumn, fileColumn);
+        fileTableTableView.setItems(fileTableObservable);
+    }
+
+    private void setHeapTableView(ProgramState programState){
+        Iterable<Map.Entry<Integer, Integer>> heapRepresentation = programState.getHeap().getAsIterable();
+
+        List<Map.Entry<Integer, Integer>> heapList = new ArrayList<>();
+        heapList.forEach(e -> heapList.add(e));
+
+        ObservableList<Map.Entry<Integer, Integer>> heapObservable = FXCollections.observableArrayList(heapList);
+
+        TableColumn<Map.Entry<Integer, Integer>, Integer> addressColumn = new TableColumn<>("Address");
+        addressColumn.setCellValueFactory(p -> (ObservableValue<Integer>) new SimpleIntegerProperty(p.getValue().getKey()).asObject());
+        TableColumn<Map.Entry<Integer, Integer>, Integer> addressValueColumn = new TableColumn<>("Value");
+        addressValueColumn.setCellValueFactory(p -> (ObservableValue<Integer>) new SimpleIntegerProperty(p.getValue().getValue()).asObject());
+
+        heapTableView.getColumns().clear();
+        heapTableView.getColumns().addAll(addressColumn, addressValueColumn);
+        heapTableView.setItems(heapObservable);
+    }
+
+    private void setOutputListView(ProgramState programState){
+        Iterable<Integer> outputListRepresentation = programState.getOutputList().getAsIterable();
+
+        List<Integer> outputList = new ArrayList<>();
+        outputListRepresentation.forEach(e -> outputList.add(e));
+
+        ObservableList<Integer> outputListObservable = FXCollections.observableArrayList(outputList);
+        outputListView.setItems(outputListObservable);
     }
 }
 
