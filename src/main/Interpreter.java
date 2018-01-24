@@ -6,6 +6,7 @@ import Model.Expressions.*;
 import Model.FileTable.FileDescriptor;
 import Model.FileTable.FileTable;
 import Model.Heap.Heap;
+import Model.LatchTable.LatchTable;
 import Model.OutputList.OutputList;
 import Model.OutputList.OutputListInterface;
 import Model.ProgramState;
@@ -42,7 +43,7 @@ public class Interpreter {
         OutputListInterface<Integer> outputList1            = new OutputList<>();
         FileTable<Integer, FileDescriptor> fileTable1       = new FileTable<>();
         Heap<Integer, Integer>  heap1                       = new Heap<>();
-        ProgramState programState1                          = new ProgramState(executionStack1, symbolTable1, outputList1, fileTable1, heap1, IdGenerator.generateId());
+        ProgramState programState1                          = new ProgramState(executionStack1, symbolTable1, outputList1, fileTable1, heap1, IdGenerator.generateId(), new LatchTable<Integer, Integer>());
 
         RepositoryInterface repository1                     = new Repository("LogFile1.txt");
         repository1.addProgramState(programState1);
@@ -75,7 +76,7 @@ public class Interpreter {
         OutputListInterface<Integer> outputList2            = new OutputList<>();
         FileTable<Integer, FileDescriptor> fileTable2       = new FileTable<>();
         Heap<Integer, Integer>  heap2                       = new Heap<>();
-        ProgramState programState2                          = new ProgramState(executionStack2, symbolTable2, outputList2, fileTable2, heap2, IdGenerator.generateId());
+        ProgramState programState2                          = new ProgramState(executionStack2, symbolTable2, outputList2, fileTable2, heap2, IdGenerator.generateId(), new LatchTable<Integer, Integer>());
 
         RepositoryInterface repository2                     = new Repository("LogFile2.txt");
         repository2.addProgramState(programState2);
@@ -128,7 +129,7 @@ public class Interpreter {
         OutputListInterface<Integer> outputList3            = new OutputList<>();
         FileTable<Integer, FileDescriptor> fileTable3       = new FileTable<>();
         Heap<Integer, Integer>  heap3                       = new Heap<>();
-        ProgramState programState3                          = new ProgramState(executionStack3, symbolTable3, outputList3, fileTable3, heap3, IdGenerator.generateId());
+        ProgramState programState3                          = new ProgramState(executionStack3, symbolTable3, outputList3, fileTable3, heap3, IdGenerator.generateId(), new LatchTable<Integer, Integer>());
 
         RepositoryInterface repository3                     = new Repository("LogFile3.txt");
         repository3.addProgramState(programState3);
@@ -149,7 +150,7 @@ public class Interpreter {
         OutputListInterface<Integer> outputList4            = new OutputList<>();
         FileTable<Integer, FileDescriptor> fileTable4       = new FileTable<>();
         Heap<Integer, Integer>  heap4                       = new Heap<>();
-        ProgramState programState4                          = new ProgramState(executionStack4, symbolTable4, outputList4, fileTable4, heap4, IdGenerator.generateId());
+        ProgramState programState4                          = new ProgramState(executionStack4, symbolTable4, outputList4, fileTable4, heap4, IdGenerator.generateId(), new LatchTable<Integer, Integer>());
 
         RepositoryInterface repository4                     = new Repository("LogFile4.txt");
         repository4.addProgramState(programState4);
@@ -179,7 +180,7 @@ public class Interpreter {
         OutputListInterface<Integer> outputList5            = new OutputList<>();
         FileTable<Integer, FileDescriptor> fileTable5       = new FileTable<>();
         Heap<Integer, Integer>  heap5                       = new Heap<>();
-        ProgramState programState5                          = new ProgramState(executionStack5, symbolTable5, outputList5, fileTable5, heap5, IdGenerator.generateId());
+        ProgramState programState5                          = new ProgramState(executionStack5, symbolTable5, outputList5, fileTable5, heap5, IdGenerator.generateId(), new LatchTable<Integer, Integer>());
 
         RepositoryInterface repository5                     = new Repository("LogFile5.txt");
         repository5.addProgramState(programState5);
@@ -212,7 +213,7 @@ public class Interpreter {
         executionStack6.push(statement6);
 
         ProgramState programState6 = new ProgramState(executionStack6, new SymbolTable<String, Integer>(),
-                new OutputList<Integer>(), new FileTable<Integer, FileDescriptor>(), new Heap<Integer, Integer>(), IdGenerator.generateId());
+                new OutputList<Integer>(), new FileTable<Integer, FileDescriptor>(), new Heap<Integer, Integer>(), IdGenerator.generateId(), new LatchTable<Integer, Integer>());
 
         RepositoryInterface repository6 = new Repository("LogFile6.txt");
         repository6.addProgramState(programState6);
@@ -245,7 +246,7 @@ public class Interpreter {
         executionStack7.push(statement7);
 
         ProgramState programState7 = new ProgramState(executionStack7, new SymbolTable<String, Integer>(),
-                new OutputList<Integer>(), new FileTable<Integer, FileDescriptor>(), new Heap<Integer, Integer>(), IdGenerator.generateId());
+                new OutputList<Integer>(), new FileTable<Integer, FileDescriptor>(), new Heap<Integer, Integer>(), IdGenerator.generateId(), new LatchTable<Integer, Integer>());
 
         RepositoryInterface repository7 = new Repository("LogFile7.txt");
         repository7.addProgramState(programState7);

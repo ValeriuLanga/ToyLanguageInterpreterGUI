@@ -41,6 +41,10 @@ public class ProgramStateExecutorController implements Initializable {
     private ListView<Integer> programStatesIdsListView;
     @FXML
     private TextField currentNumberOfProgramStates;
+
+    @FXML
+    private TableView<Map.Entry<Integer, Integer>> latchTableTableView;
+
     @FXML
     private Button runOneStepButton;
 
@@ -122,6 +126,9 @@ public class ProgramStateExecutorController implements Initializable {
 
                 // OUTPUT
                 setOutputListView(currentProgramState);
+
+                // LATCH
+                setLatchTableTableView(currentProgramState);
             }
         });
 
@@ -278,7 +285,7 @@ public class ProgramStateExecutorController implements Initializable {
         Iterable<Map.Entry<Integer, Integer>> heapRepresentation = programState.getHeap().getAsIterable();
 
         List<Map.Entry<Integer, Integer>> heapList = new ArrayList<>();
-        heapList.forEach(e -> heapList.add(e));
+        heapRepresentation.forEach(e -> heapList.add(e));
 
         ObservableList<Map.Entry<Integer, Integer>> heapObservable = FXCollections.observableArrayList(heapList);
 
@@ -290,6 +297,24 @@ public class ProgramStateExecutorController implements Initializable {
         heapTableView.getColumns().clear();
         heapTableView.getColumns().addAll(addressColumn, addressValueColumn);
         heapTableView.setItems(heapObservable);
+    }
+
+    private void setLatchTableTableView(ProgramState programState){
+        Iterable<Map.Entry<Integer, Integer>> latchTableRepresentation = programState.getLatchTable().getAsIterable();
+
+        List<Map.Entry<Integer, Integer>> latchTableList = new ArrayList<>();
+        latchTableRepresentation.forEach(e -> latchTableList.add(e));
+
+        ObservableList<Map.Entry<Integer, Integer>> latchTableObservable = FXCollections.observableArrayList(latchTableList);
+
+        TableColumn<Map.Entry<Integer, Integer>, Integer> addressColumn = new TableColumn<>("LatchId");
+        addressColumn.setCellValueFactory(p -> (ObservableValue<Integer>) new SimpleIntegerProperty(p.getValue().getKey()).asObject());
+        TableColumn<Map.Entry<Integer, Integer>, Integer> addressValueColumn = new TableColumn<>("Counter");
+        addressValueColumn.setCellValueFactory(p -> (ObservableValue<Integer>) new SimpleIntegerProperty(p.getValue().getValue()).asObject());
+
+        latchTableTableView.getColumns().clear();
+        latchTableTableView.getColumns().addAll(addressColumn, addressValueColumn);
+        latchTableTableView.setItems(latchTableObservable);
     }
 
     private void setOutputListView(ProgramState programState){

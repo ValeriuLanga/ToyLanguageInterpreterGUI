@@ -6,6 +6,7 @@ import Model.Expressions.*;
 import Model.FileTable.FileDescriptor;
 import Model.FileTable.FileTable;
 import Model.Heap.Heap;
+import Model.LatchTable.LatchTable;
 import Model.OutputList.OutputList;
 import Model.OutputList.OutputListInterface;
 import Model.ProgramState;
@@ -14,6 +15,7 @@ import Model.Repository.RepositoryInterface;
 import Model.Statements.*;
 import Model.SymbolTable.SymbolTable;
 import Model.SymbolTable.SymbolTableInterface;
+import Utils.FreeAddressGenerator;
 import Utils.IdGenerator;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -139,7 +141,7 @@ public class ProgramStateSelectorController implements Initializable{
         OutputListInterface<Integer> outputList1            = new OutputList<>();
         FileTable<Integer, FileDescriptor> fileTable1       = new FileTable<>();
         Heap<Integer, Integer> heap1                       = new Heap<>();
-        ProgramState programState1                          = new ProgramState(executionStack1, symbolTable1, outputList1, fileTable1, heap1, IdGenerator.generateId());
+        ProgramState programState1                          = new ProgramState(executionStack1, symbolTable1, outputList1, fileTable1, heap1, IdGenerator.generateId(),new LatchTable<Integer,Integer>());
 
         //
         // 2nd statement below
@@ -165,7 +167,7 @@ public class ProgramStateSelectorController implements Initializable{
         OutputListInterface<Integer> outputList2            = new OutputList<>();
         FileTable<Integer, FileDescriptor> fileTable2       = new FileTable<>();
         Heap<Integer, Integer>  heap2                       = new Heap<>();
-        ProgramState programState2                          = new ProgramState(executionStack2, symbolTable2, outputList2, fileTable2, heap2, IdGenerator.generateId());
+        ProgramState programState2                          = new ProgramState(executionStack2, symbolTable2, outputList2, fileTable2, heap2, IdGenerator.generateId(),new LatchTable<Integer,Integer>());
 
         Statement statement3 = new CompoundStatement(
                 new CompoundStatement(
@@ -192,7 +194,7 @@ public class ProgramStateSelectorController implements Initializable{
         OutputListInterface<Integer> outputList3            = new OutputList<>();
         FileTable<Integer, FileDescriptor> fileTable3       = new FileTable<>();
         Heap<Integer, Integer>  heap3                       = new Heap<>();
-        ProgramState programState3                          = new ProgramState(executionStack3, symbolTable3, outputList3, fileTable3, heap3, IdGenerator.generateId());
+        ProgramState programState3                          = new ProgramState(executionStack3, symbolTable3, outputList3, fileTable3, heap3, IdGenerator.generateId(),new LatchTable<Integer,Integer>());
 
         //
         // 4th Statement below
@@ -206,7 +208,7 @@ public class ProgramStateSelectorController implements Initializable{
         OutputListInterface<Integer> outputList4            = new OutputList<>();
         FileTable<Integer, FileDescriptor> fileTable4       = new FileTable<>();
         Heap<Integer, Integer>  heap4                       = new Heap<>();
-        ProgramState programState4                          = new ProgramState(executionStack4, symbolTable4, outputList4, fileTable4, heap4, IdGenerator.generateId());
+        ProgramState programState4                          = new ProgramState(executionStack4, symbolTable4, outputList4, fileTable4, heap4, IdGenerator.generateId(),new LatchTable<Integer,Integer>());
 
         //
         // 5th Statement below
@@ -229,7 +231,7 @@ public class ProgramStateSelectorController implements Initializable{
         OutputListInterface<Integer> outputList5            = new OutputList<>();
         FileTable<Integer, FileDescriptor> fileTable5       = new FileTable<>();
         Heap<Integer, Integer>  heap5                       = new Heap<>();
-        ProgramState programState5                          = new ProgramState(executionStack5, symbolTable5, outputList5, fileTable5, heap5, IdGenerator.generateId());
+        ProgramState programState5                          = new ProgramState(executionStack5, symbolTable5, outputList5, fileTable5, heap5, IdGenerator.generateId(),new LatchTable<Integer,Integer>());
 
         //
         //  6th statement below
@@ -253,7 +255,87 @@ public class ProgramStateSelectorController implements Initializable{
         executionStack6.push(statement6);
 
         ProgramState programState6 = new ProgramState(executionStack6, new SymbolTable<String, Integer>(),
-                new OutputList<Integer>(), new FileTable<Integer, FileDescriptor>(), new Heap<Integer, Integer>(), IdGenerator.generateId());
+                new OutputList<Integer>(), new FileTable<Integer, FileDescriptor>(), new Heap<Integer, Integer>(), IdGenerator.generateId(), new LatchTable<Integer,Integer>());
+
+//        new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,rH(v2));
+//        fork(wh(v1,rh(v1)*10));print(rh(v1));countDown(cnt);
+//          fork(wh(v2,rh(v2)*10));print(rh(v2));countDown(cnt);
+//              fork(wh(v3,rh(v3)*10));print(rh(v3));countDown(cnt))));
+        Statement statement7 =
+        new CompoundStatement(
+            new CompoundStatement(
+                    new NewAddressStatement("v1", new ConstantExpression(2)),
+                    new CompoundStatement(  new NewAddressStatement("v2", new ConstantExpression(3)),
+                                            new CompoundStatement   (
+                                                    new NewAddressStatement("v3",new ConstantExpression(4)),
+                                                    new NewLatchStatement("counter", new ReadAddressExpression("v2"))
+                                                                    )
+                                        )
+                                ),
+            new CompoundStatement(
+                    new CompoundStatement(
+                            new CompoundStatement(
+                                    new ForkStatement(new CompoundStatement(
+                                            new CompoundStatement(
+                                                    new WriteAddressStatement(
+                                                            "v1",
+                                                            new ArithmeticExpression('*',
+                                                                    new ReadAddressExpression("v1"),
+                                                                    new ConstantExpression(10)
+                                                            )
+                                                    ),
+                                                    new PrintStatement(new ReadAddressExpression("v1"))
+                                            ),
+                                            new CountDownStatement("counter")
+                                    )
+                                    ),
+                                    new ForkStatement(new CompoundStatement(
+                                            new CompoundStatement(
+                                                    new WriteAddressStatement(
+                                                            "v1",
+                                                            new ArithmeticExpression('*',
+                                                                    new ReadAddressExpression("v1"),
+                                                                    new ConstantExpression(10)
+                                                            )
+                                                    ),
+                                                    new PrintStatement(new ReadAddressExpression("v1"))
+                                            ),
+                                            new CountDownStatement("counter")
+                                    )
+                                    )
+                            ),
+                            new ForkStatement(new CompoundStatement(
+                                    new CompoundStatement(
+                                            new WriteAddressStatement(
+                                                    "v1",
+                                                    new ArithmeticExpression('*',
+                                                            new ReadAddressExpression("v1"),
+                                                            new ConstantExpression(10)
+                                                    )
+                                            ),
+                                            new PrintStatement(new ReadAddressExpression("v1"))
+                                    ),
+                                    new CountDownStatement("counter")
+                            )
+                            )
+                    ),
+                    new CompoundStatement(
+                            new CompoundStatement(
+                                    new CompoundStatement(
+                                            new AwaitStatement("counter"),
+                                            new PrintStatement(new ConstantExpression(100))
+                                    ),
+                                    new CountDownStatement("counter")
+                            ),
+                            new PrintStatement(new ConstantExpression(100)))
+            )
+            );
+        ExecutionStack<Statement> executionStack7 = new ExecutionStack<>();
+        executionStack6.push(statement7);
+
+        ProgramState programState7 = new ProgramState(executionStack6, new SymbolTable<String, Integer>(),
+                new OutputList<Integer>(), new FileTable<Integer, FileDescriptor>(), new Heap<Integer, Integer>(), IdGenerator.generateId(), new LatchTable<Integer,Integer>());
+
 
         programStates.add(programState1);
         programStates.add(programState2);
@@ -261,6 +343,7 @@ public class ProgramStateSelectorController implements Initializable{
         programStates.add(programState4);
         programStates.add(programState5);
         programStates.add(programState6);
+        programStates.add(programState7);
 
         return  programStates;
     }

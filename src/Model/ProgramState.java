@@ -7,6 +7,7 @@ import Model.ExecutionStack.ExecutionStackInterface;
 import Model.FileTable.FileDescriptor;
 import Model.FileTable.FileTableInterface;
 import Model.Heap.HeapInterface;
+import Model.LatchTable.LatchTableInterface;
 import Model.OutputList.OutputListInterface;
 import Model.Statements.Statement;
 import Model.SymbolTable.SymbolTableInterface;
@@ -17,6 +18,7 @@ public class ProgramState {
     private OutputListInterface<Integer> outputList;
     private FileTableInterface<Integer, FileDescriptor> fileTable;
     private HeapInterface<Integer, Integer> heap;
+    private LatchTableInterface<Integer, Integer> latchTable;
     private int programId;
 
     public ProgramState(ExecutionStackInterface<Statement> stack,
@@ -24,13 +26,15 @@ public class ProgramState {
                         OutputListInterface<Integer> outputList,
                         FileTableInterface<Integer, FileDescriptor> fileTable,
                         HeapInterface<Integer, Integer> heap,
-                        int programId){
+                        int programId,
+                        LatchTableInterface<Integer, Integer> latchTable){
 
         this.executionStack = stack;
         this.symbolTable = symbolTable;
         this.outputList = outputList;
         this.fileTable = fileTable;
         this.heap = heap;
+        this.latchTable = latchTable;
         this.programId = programId;
     }
 
@@ -56,6 +60,10 @@ public class ProgramState {
         return heap;
     }
 
+    public LatchTableInterface<Integer, Integer> getLatchTable() {
+        return latchTable;
+    }
+
     public boolean isCompleted(){
         if(executionStack.isEmpty())
             return true;
@@ -74,11 +82,12 @@ public class ProgramState {
 
     @Override
     public String toString(){
-        return  "Id: " + programId + "\n" +
-                "ExecutionStack: " + executionStack.toString() + "\nSymbolTable: " + symbolTable.toString()
+        return  "Id: " + programId
+                + "\nExecutionStack: " + executionStack.toString() + "\nSymbolTable: " + symbolTable.toString()
                 + "\nOutput: " + outputList.toString()
                 +"\nFileTable: " + fileTable.toString()
                 +"\nHeap: " + heap.toString()
+                +"\nLatchTable: " + latchTable.toString()
                 + '\n';
     }
 }
