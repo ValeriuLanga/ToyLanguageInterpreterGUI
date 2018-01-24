@@ -102,7 +102,6 @@ public class ProgramStateExecutorController implements Initializable {
                     if(currentProgramState == null){
                         //refresh the list since we have an empty program state
                         setProgramIdsListView(repository);
-
                         currentProgramState = repository.getProgramsList().get(0);
                     }
                 } catch (Exception ex) {

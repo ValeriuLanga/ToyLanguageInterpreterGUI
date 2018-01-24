@@ -1,0 +1,9678 @@
+
+Id: 9
+ExecutionStack: 
+(v=0;(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v-1) ) } ;;Print(v*10);))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v-1) ) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v-1) ) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v-1) ) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v-1) ) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { fork( (Print(v);;v=v-1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { fork( (Print(v);;v=v-1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );While( (v>3) ) { fork( (Print(v);;v=v-1) ) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );While( (v>3) ) { fork( (Print(v);;v=v-1) ) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+While( (v>3) ) { fork( (Print(v);;v=v-1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+While( (v>3) ) { fork( (Print(v);;v=v-1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v>3) ) { fork( (Print(v);;v=v-1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v>3) ) { fork( (Print(v);;v=v-1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(v=0;(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v-1) ) } ;;Print(v*10);))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v-1) ) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v-1) ) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v-1) ) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v-1) ) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { fork( (Print(v);;v=v-1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { fork( (Print(v);;v=v-1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );While( (v>3) ) { fork( (Print(v);;v=v-1) ) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );While( (v>3) ) { fork( (Print(v);;v=v-1) ) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+While( (v>3) ) { fork( (Print(v);;v=v-1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+While( (v>3) ) { fork( (Print(v);;v=v-1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v>3) ) { fork( (Print(v);;v=v-1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(v=0;(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v+1) );While( (v>3) ) { fork( (Print(v);;v=v+1) ) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v+1) );While( (v>3) ) { fork( (Print(v);;v=v+1) ) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v>3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v>3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v>3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v>3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+SymbolTable: 
+	v->0
+Output: 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(v=0;(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v+1) );While( (v>3) ) { fork( (Print(v);;v=v+1) ) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v+1) );While( (v>3) ) { fork( (Print(v);;v=v+1) ) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v>3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v>3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v>3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v>3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+SymbolTable: 
+	v->0
+Output: 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(v=0;(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v+1) );While( (v>3) ) { fork( (Print(v);;v=v+1) ) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v+1) );While( (v>3) ) { fork( (Print(v);;v=v+1) ) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v>3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v>3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v>3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v>3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+SymbolTable: 
+	v->0
+Output: 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(v=0;(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v+1) );While( (v>3) ) { fork( (Print(v);;v=v+1) ) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(v=0;(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v+1) );While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v+1) );While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 110
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 110
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 110
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 110
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 110
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 120
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 110
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 120
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 110
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 120
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 120
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 120
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 130
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 120
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 130
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 120
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 130
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 130
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 130
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 140
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 130
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 140
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 130
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 140
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 140
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 140
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 150
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 140
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 150
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 140
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 150
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 150
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 150
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 160
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 150
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 160
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 150
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 160
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 160
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 160
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 170
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 160
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 170
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 160
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 170
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 170
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 170
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 180
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 170
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 180
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 170
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 180
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 180
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 180
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 190
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 180
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 190
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 180
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 190
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 190
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 190
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 200
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 190
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 200
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 190
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 200
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 200
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 200
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 210
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 200
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 210
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 200
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 210
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 210
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 210
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 220
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 210
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 220
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 210
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 220
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 220
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 220
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 230
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 220
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 230
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 220
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 230
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 230
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 230
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 240
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 230
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 240
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 230
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 240
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 240
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 240
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 250
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 240
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 250
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 240
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 250
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 250
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 250
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 260
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 250
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 260
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 250
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 260
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 260
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 260
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 270
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 260
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 270
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 260
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 270
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 270
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 270
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 280
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 270
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 280
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 270
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 280
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 280
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 280
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 290
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 280
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 290
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 280
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 290
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 290
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 290
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 300
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 290
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 300
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 290
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 300
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 300
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 300
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 310
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 300
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 310
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 300
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 310
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 310
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 310
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 320
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 310
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 320
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 310
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 320
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 320
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 320
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 330
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 320
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 330
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 320
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 330
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 330
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 330
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 340
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 330
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 340
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 330
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 340
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 340
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 340
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 350
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 340
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 350
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 340
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 350
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 350
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 350
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 360
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 350
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 360
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 350
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 360
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 360
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 360
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 370
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 360
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 370
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 360
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 370
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 370
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 370
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 380
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 370
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 380
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 370
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 380
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 380
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 380
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 390
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 380
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 390
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 380
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 390
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 390
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 390
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 400
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 390
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 400
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 390
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 400
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 400
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 400
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 410
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 400
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 410
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 400
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 410
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 410
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 410
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 420
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 410
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 420
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 410
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 420
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 420
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 420
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 430
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 420
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 430
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 420
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 430
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 430
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 430
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 440
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 430
+ExecutionStack: 
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 440
+ExecutionStack: 
+(Print(v);;v=v+1)
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v+1) )
+While( (v!=3) ) { fork( (Print(v);;v=v+1) ) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 430
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 440
+ExecutionStack: 
+Print(v);
+v=v+1
+SymbolTable: 
+	v->0
+Output: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(v=0;(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+((fork( (Print(v);;v=v-1) );v=v+1);While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+((fork( (Print(v);;v=v-1) );v=v+1);While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+SymbolTable: 
+	v->-1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 110
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 110
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 110
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 110
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 110
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 110
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 110
+ExecutionStack: 
+SymbolTable: 
+	v->0
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 120
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 120
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 120
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 120
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 120
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 120
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+SymbolTable: 
+	v->3
+Output: 0 1 2 30 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 120
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 1 2 30 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(v=0;(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+((fork( (Print(v);;v=v-1) );v=v+1);While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+((fork( (Print(v);;v=v-1) );v=v+1);While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 100
+ExecutionStack: 
+SymbolTable: 
+	v->-1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 110
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 110
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 110
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 110
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 110
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 110
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 110
+ExecutionStack: 
+SymbolTable: 
+	v->0
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 120
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 120
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 120
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 120
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 120
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 120
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+SymbolTable: 
+	v->3
+Output: 0 1 2 30 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 120
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 1 2 30 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(v=0;(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+((fork( (Print(v);;v=v-1) );v=v+1);While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+((fork( (Print(v);;v=v-1) );v=v+1);While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+SymbolTable: 
+	v->-1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+SymbolTable: 
+	v->0
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+SymbolTable: 
+	v->3
+Output: 0 1 2 30 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 1 2 30 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(v=0;(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+((fork( (Print(v);;v=v-1) );v=v+1);While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+((fork( (Print(v);;v=v-1) );v=v+1);While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+SymbolTable: 
+	v->-1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+SymbolTable: 
+	v->0
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+SymbolTable: 
+	v->3
+Output: 0 1 2 30 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 1 2 30 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(v=0;(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+((fork( (Print(v);;v=v-1) );v=v+1);While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+((fork( (Print(v);;v=v-1) );v=v+1);While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+SymbolTable: 
+	v->-1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+SymbolTable: 
+	v->0
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+SymbolTable: 
+	v->3
+Output: 0 1 2 30 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 1 2 30 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(v=0;(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+((fork( (Print(v);;v=v-1) );v=v+1);While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+((fork( (Print(v);;v=v-1) );v=v+1);While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+SymbolTable: 
+	v->-1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+SymbolTable: 
+	v->0
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+SymbolTable: 
+	v->3
+Output: 0 1 2 30 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 1 2 30 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(v=0;(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(v=0;(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);))
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=0
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;;Print(v*10);)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+RepeatUntil( (v==3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+((fork( (Print(v);;v=v-1) );v=v+1);While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+((fork( (Print(v);;v=v-1) );v=v+1);While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;)
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->0
+Output: 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->0
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+SymbolTable: 
+	v->-1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+(fork( (Print(v);;v=v-1) );v=v+1)
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->1
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+SymbolTable: 
+	v->0
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+fork( (Print(v);;v=v-1) )
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+v=v+1
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+(Print(v);;v=v-1)
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+While( (v!=3) ) { (fork( (Print(v);;v=v-1) );v=v+1) } ;
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+Print(v);
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+Print(v*10);
+SymbolTable: 
+	v->3
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+v=v-1
+SymbolTable: 
+	v->2
+Output: 0 1 2 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 9
+ExecutionStack: 
+SymbolTable: 
+	v->3
+Output: 0 1 2 30 
+FileTable: 
+Heap: 
+LatchTable: 
+
+Id: 90
+ExecutionStack: 
+SymbolTable: 
+	v->1
+Output: 0 1 2 30 
+FileTable: 
+Heap: 
+LatchTable: 

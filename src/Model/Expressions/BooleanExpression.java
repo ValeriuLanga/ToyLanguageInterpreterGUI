@@ -17,6 +17,20 @@ public class BooleanExpression implements Expression {
         this.expression2 = expression2;
     }
 
+    public BooleanExpression NegateExpression() throws UnknownOperationException {
+        switch ( comparator ){
+            case ">" : comparator = "<="; return this;
+            case ">=": comparator = "<";return this;
+            case "==": comparator = "!=";return this;
+            case "!=": comparator = "==";return this;
+            case "<" : comparator = ">=";return this;
+            case "<=": comparator = ">";return this;
+
+            default : throw new UnknownOperationException(comparator);
+        }
+
+    }
+
     @Override
     public int eval(SymbolTableInterface<String, Integer> symbolTable, HeapInterface<Integer, Integer> heap) throws DivisionByZeroException, UnknownOperationException {
 

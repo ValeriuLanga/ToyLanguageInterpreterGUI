@@ -331,9 +331,42 @@ public class ProgramStateSelectorController implements Initializable{
             )
             );
         ExecutionStack<Statement> executionStack7 = new ExecutionStack<>();
-        executionStack6.push(statement7);
+        executionStack7.push(statement7);
 
-        ProgramState programState7 = new ProgramState(executionStack6, new SymbolTable<String, Integer>(),
+        ProgramState programState7 = new ProgramState(executionStack7, new SymbolTable<String, Integer>(),
+                new OutputList<Integer>(), new FileTable<Integer, FileDescriptor>(), new Heap<Integer, Integer>(), IdGenerator.generateId(), new LatchTable<Integer,Integer>());
+
+//        v=0;
+//        (repeat (fork(print(v);v=v-1);v=v+1) until v==3);
+//        x=1;y=2;z=3;w=4;
+//        print(v*10)
+
+        Statement statement8 =
+            new CompoundStatement(
+                new AssignStatement("v",new ConstantExpression(0)),
+                new CompoundStatement(
+                    new RepeatUntilStatement(
+                            new BooleanExpression("==", new VariableExpression("v"), new ConstantExpression(3)),
+                            new CompoundStatement(
+                                new ForkStatement(new CompoundStatement(
+                                        new PrintStatement(new VariableExpression("v")),
+                                        new AssignStatement("v",
+                                                new ArithmeticExpression('-', new VariableExpression("v"), new ConstantExpression(1))
+                                                                        )
+                                                    )
+                                                ),
+                            new AssignStatement("v",
+                                            new ArithmeticExpression('+', new VariableExpression("v"), new ConstantExpression(1))
+                                    )
+                            )
+                    ),
+                    new PrintStatement(new ArithmeticExpression('*', new VariableExpression("v"), new ConstantExpression(10)))
+                                    ));
+
+        ExecutionStack<Statement> executionStack8 = new ExecutionStack<>();
+        executionStack8.push(statement8);
+
+        ProgramState programState8 = new ProgramState(executionStack8, new SymbolTable<String, Integer>(),
                 new OutputList<Integer>(), new FileTable<Integer, FileDescriptor>(), new Heap<Integer, Integer>(), IdGenerator.generateId(), new LatchTable<Integer,Integer>());
 
 
@@ -344,6 +377,7 @@ public class ProgramStateSelectorController implements Initializable{
         programStates.add(programState5);
         programStates.add(programState6);
         programStates.add(programState7);
+        programStates.add(programState8);
 
         return  programStates;
     }

@@ -27,7 +27,7 @@ public class ForkStatement implements Statement {
                             currentState.getOutputList(),
                             currentState.getFileTable(),
                             currentState.getHeap(),
-                   IdGenerator.generateId() * 10,
+                   currentState.getProgramId() * 10,
                             currentState.getLatchTable());
 
         return forkedProgramState;
